@@ -1,0 +1,101 @@
+// Typography
+$font-family-sans-serif: "Source Sans", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #007BFF;
+$indigo: #6574cd;
+$purple: #9F86FF;
+$pink: #f66D9b;
+$red: #E64759;
+$orange: #f6993f;
+$yellow: #E4D836;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// Grays
+$gray-100: #fefeff !default;
+$gray-200: #f7f9fa !default;
+$gray-300: #e1e1e5 !default;
+$gray-400: #c5c5cc !default;
+$gray-500: #a9a9b4 !default;
+$gray-600: #8e8f9c !default;
+$gray-700: #747584 !default;
+$gray-800: #5b5c6e !default;
+$gray-900: #424458 !default;
+$black:    #1f1f1f !default;
+
+// Themes
+$primary: $green;
+$dark: #2B2E43;
+$light: $gray-200;
+$secondary: $gray-900 !default;
+
+// Body
+$body-bg: $dark;
+$body-color:$gray-200 !default;
+
+// Border
+$border-color:$gray-900;
+$dropdown-list-border-color: $gray-300 !default;
+
+// Cards
+$card-bg:$gray-900;
+
+// List group
+$list-group-bg: $dark;
+$list-group-border-color: $border-color;
+$list-group-hover-bg:$gray-900;
+$list-group-action-color:$body-color;
+
+// Sidebar size
+$topbar-base-height: 4.375rem;
+$sidebar-base-width: 14rem;
+$sidebar-collapsed-width: 6.5rem;
+
+// Form
+$input-btn-padding-y:.5rem !default;
+$input-border-radius:3px !default;
+
+//Display
+$display1-size:               2.5rem !default;
+$display2-size:               2rem !default;
+$display3-size:               1.35rem !default;
+$display4-size:               1.25rem !default;
+
+$display1-weight:             400 !default;
+$display2-weight:             400 !default;
+$display3-weight:             400 !default;
+$display4-weight:             400 !default;
+
+// Dropdown
+$dropdown-color: $dark;
+
+// Containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px
+) !default;
+
+// Pagination
+$pagination-color:                  $primary !default;
+$pagination-bg:                     $dark !default;
+$pagination-border-color:           $border-color !default;
+
+$pagination-hover-bg:               $gray-900 !default;
+$pagination-hover-border-color:     $gray-700 !default;
+
+$pagination-disabled-color:         $gray-400 !default;
+$pagination-disabled-bg:            $gray-900 !default;
+$pagination-disabled-border-color:  $gray-900 !default;
+
+// Tabs
+$nav-tabs-border-color:             $dark !default;
+$nav-tabs-border-width:             0px !default;
+$nav-tabs-border-radius:            0px !default;
+$nav-tabs-link-active-color:        $light !default;
+$nav-tabs-link-active-bg:           $primary !default;

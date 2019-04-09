@@ -1,0 +1,11 @@
+.datepicker {
+  padding: 1rem;
+    td{
+        width: 32px;
+        height: 32px;
+        &.active,&.hover{
+            background: $primary !important;
+            border-color: $primary !important;
+        }
+    }
+}

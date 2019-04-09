@@ -1,0 +1,86 @@
+.sidebar{
+  position: relative;
+  min-height: 100vh;
+
+  .sidebar-brand{
+    img{transform: rotate(42deg);}
+  }
+
+  .sidebar-divider {
+    margin: 0 1rem 1rem;
+  }
+
+  #btn-toggle {
+    margin: 1rem auto;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    transition: all .3s;
+
+    .arrow-right{ display: none; }
+    &:hover { text-decoration: none; }
+    &:focus { outline: none; }
+  }
+
+  &.toggled {
+    width: 0 !important;
+    overflow: hidden;
+
+    #btn-toggle{
+      .arrow-right{ display: block; }
+      .arrow-left{ display: none; }
+    }
+  }
+
+  @include sidebar_toggle();  
+
+  .collapse{
+    @extend .animated--grow-in;
+  }
+}
+
+@include media-breakpoint-up(md){
+  .sidebar{
+    &.toggled{
+      width: $sidebar-collapsed-width !important;
+    }
+  }
+}
+
+// Themes sidebar
+.sidebar-dark {
+  background: $dark;
+  
+  .sidebar-brand {
+    color: $light;
+  }
+  
+  .sidebar-divider{
+    border-top: 1px solid $border-color;
+  }
+  
+  .sidebar-heading{
+    color: $gray-300;
+  }
+  
+  .nav-item {
+    .nav-link {
+      color: $gray-700;
+      &:active, &:focus, &:hover { color: $white; }
+    }
+    
+    &.active {
+      .nav-link { color: $white; }
+    }
+  }
+  
+  #btn-toggle {
+    background-color: $primary;
+
+    svg{
+      stroke: $light;
+    }
+
+    &:hover { background-color: $light; svg{stroke: $primary;} }
+  }
+}

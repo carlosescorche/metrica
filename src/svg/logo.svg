@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="192px" viewBox="0 0 218 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Recurso 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="166.038152 189.060802 57.0381523 192 0 98.9391979 51.9535801 2.9309185 160.95358 0 218 93.0608021"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Recurso-1">
+            <g id="Shape">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#00CD69" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <polygon fill-opacity="0.138756793" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="258.038152 189.060802 149.038152 192 92 98.9391979 143.95358 2.9309185 252.95358 0 310 93.0608021"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
